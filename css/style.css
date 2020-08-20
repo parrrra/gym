@@ -1,0 +1,39 @@
+
+.grid-container {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 100px auto;
+}
+
+.card {
+  width: 300px;
+  margin: 0 25px;
+  text-align: center;
+  border-top: 2px solid #00acee;
+  border-radius: 4px;
+  /* border: 1px solid blue; */
+}
+
+.card p {
+  font-size: 3em;
+}
+
+.card h2 {
+  font-size: 1.5em;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.inputs button {
+  margin: 5px auto;
+  width: 70px;
+}
+
+.inputs input {
+  margin: 5px auto;
+  width: 70px;
+}
